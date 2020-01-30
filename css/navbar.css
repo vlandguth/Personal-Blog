@@ -1,0 +1,17 @@
+nav ul{
+    display:flex;
+    list-style-type: none;
+    justify-content:center;
+  }
+  
+  nav ul li a{
+    text-decoration:none;
+    padding:0 60px 0 0;
+    font-size: 1.5em;
+    color:#000;
+  }
+  
+  nav ul li a:hover{
+    color:#E25822;
+  }
+  

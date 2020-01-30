@@ -1,0 +1,12 @@
+@import url("https://use.typekit.net/opk1kme.css");
+
+h1, h2, h3, a, p{
+    font-family: azo-sans-web, sans-serif;
+}
+
+h1{
+    font-size: 5em;
+    font-weight:400;
+    color:#10316B;
+    text-align:center;
+}
