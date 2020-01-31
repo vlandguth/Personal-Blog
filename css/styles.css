@@ -1,12 +1,24 @@
 @import url("https://use.typekit.net/opk1kme.css");
 
-h1, h2, h3, a, p{
+body{
+ background: #fff;
+}
+
+h1, h2, h3, h4, h5, a, p, label{
     font-family: azo-sans-web, sans-serif;
+    text-decoration: none;
+    color:inherit;
 }
 
 h1{
     font-size: 5em;
     font-weight:400;
-    color:#10316B;
+    color:#fa163f;
     text-align:center;
+}
+
+h4{
+    font-size: 1.1em;
+    color:#fa163f;
+    margin:0 0 8px 0;
 }

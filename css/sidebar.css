@@ -1,0 +1,32 @@
+.sidebar{
+  grid-column:10/13;
+  /* background: rgb(225, 232, 245); */
+  padding:0 20px 20px 20px;
+}
+
+.about a{
+ color:#183F82;
+}
+
+.about a:hover{
+ color:rgb(33, 92, 194);  
+}
+
+.about p {
+ color:gray;
+ font-weight:200;
+}
+
+.signup{
+    text-align:center;
+margin:20px 0;
+padding:20px;
+height:200px;
+background: #183F82;
+border-radius: 5%;
+color:white;
+}
+
+input[type="text"]{
+    width:100%;
+}
