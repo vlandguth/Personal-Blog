@@ -4,7 +4,7 @@ body{
  background: #fff;
 }
 
-h1, h2, h3, h4, h5, a, p, label{
+h1, h2, h3, h4, h5, a, p, label, button{
     font-family: azo-sans-web, sans-serif;
     text-decoration: none;
     color:inherit;
@@ -18,7 +18,14 @@ h1{
 }
 
 h4{
-    font-size: 1.1em;
+    font-size: 1.05em;
     color:#fa163f;
     margin:0 0 8px 0;
+}
+
+h5{
+    font-size: .9em;
+    font-weight:200;
+    font-style:italic;
+    margin:5px 0 10px 0;
 }
