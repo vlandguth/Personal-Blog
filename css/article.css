@@ -3,7 +3,7 @@ main{
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap:20px;
   max-width:1250px;
-  margin:70px auto;
+  margin:40px auto;
   padding:0 20px;
 }
 
@@ -46,6 +46,7 @@ div.text{
   color:#183F82;
   font-size: 1.75em;
   font-weight:400;
+  letter-spacing:0.5px;
 }
 
 p.post {
@@ -87,4 +88,8 @@ div.thumbnail {
 
 #voodoo{
   background-image: url('/assets/voodoo.jpg');
+}
+
+#airfryer{
+  background-image: url('/assets/airfryer.jpg');
 }

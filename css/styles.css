@@ -1,7 +1,7 @@
 @import url("https://use.typekit.net/opk1kme.css");
 
 body{
- background: #fff;
+ background:whitessmoke;
  padding: 0;
  margin:0;
 }
@@ -16,7 +16,6 @@ h1{
     font-family: coquette, sans-serif;
     font-weight: 700;
     font-size: 5.25em;
-    font-weight:400;
     color:#fa163f;
     text-align:center;
 }
