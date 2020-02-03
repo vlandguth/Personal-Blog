@@ -1,0 +1,30 @@
+.post h2{
+    margin: 0;
+    font-size: 2.25em;
+    font-weight: 500;
+}
+
+.post img{
+    width:100%;
+    margin:20px 0 10px 0;
+}
+
+.post p {
+    font-weight:300;
+    line-height: 1.75;
+}
+
+.post h6{
+    text-align:right;
+}
+
+.recipe{
+    border: 1px black solid;
+    max-width:750px;
+    padding:20px;
+    margin:20px 0;
+}
+
+div.recipe div.social ul li a img {
+    width: 35px;
+  
