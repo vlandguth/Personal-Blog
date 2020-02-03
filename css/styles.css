@@ -1,34 +1,57 @@
 @import url("https://use.typekit.net/opk1kme.css");
 
-body{
- background:whitessmoke;
- padding: 0;
- margin:0;
+body {
+  background: whitessmoke;
+  padding: 0;
+  margin: 0;
 }
 
-h2, h3, h4, h5, a, p, label, button{
-    font-family: azo-sans-web, sans-serif;
-    text-decoration: none;
-    color:inherit;
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
 }
 
-h1{
-    font-family: coquette, sans-serif;
-    font-weight: 700;
-    font-size: 5.25em;
-    color:#fa163f;
-    text-align:center;
+footer ul li a img {
+  width: 30px;
+  margin: 0 45px 0 0;
+  opacity: 50%;
 }
 
-h4{
-    font-size: 1.05em;
-    color:#fa163f;
-    margin:0 0 8px 0;
+footer ul li a img:hover {
+  opacity: 70%;
 }
 
-h5{
-    font-size: .9em;
-    font-weight:200;
-    font-style:italic;
-    margin:5px 0 10px 0;
+h2,
+h3,
+h4,
+h5,
+a,
+p,
+label,
+button {
+  font-family: azo-sans-web, sans-serif;
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-family: coquette, sans-serif;
+  font-weight: 700;
+  font-size: 5.25em;
+  color: #fa163f;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.05em;
+  color: #fa163f;
+  margin: 0 0 8px 0;
+}
+
+h5 {
+  font-size: 0.9em;
+  font-weight: 200;
+  font-style: italic;
+  margin: 5px 0 10px 0;
 }

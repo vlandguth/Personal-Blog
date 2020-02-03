@@ -1,45 +1,45 @@
-.sidebar{
-  grid-column:10/13;
-  padding:0 20px 20px 20px;
+.sidebar {
+  grid-column: 10/13;
+  padding: 0 20px 20px 20px;
 }
 
-.about a{
- color:#183F82;
+.about a {
+  color: #183f82;
 }
 
-.about a:hover{
- color:rgb(33, 92, 194);  
+.about a:hover {
+  color: rgb(33, 92, 194);
 }
 
 .about p {
- color:gray;
- font-weight:200;
+  color: gray;
+  font-weight: 200;
 }
 
-.signup{
-    text-align:center;
-margin:30px 0;
-padding:20px;
-height:175px;
-background: #183F82;
-border-radius: 2.5%;
-color:white;
+.signup {
+  text-align: center;
+  margin: 30px 0;
+  padding: 20px;
+  height: 175px;
+  background: #183f82;
+  border-radius: 2.5%;
+  color: white;
 }
 
-.signup h3{
+.signup h3 {
   font-size: 1.5em;
 }
 
-.signup input[type="text"]{
-    width:100%;
-    height:20px;
-    margin:5px 0 10px 0;
+.signup input[type="text"] {
+  width: 100%;
+  height: 20px;
+  margin: 5px 0 10px 0;
 }
 
-.signup button{
+.signup button {
   margin: 15px 0;
-  width:50%;
-  height:25px;
+  width: 50%;
+  height: 25px;
   font-size: 0.9em;
-  color:#4A4A4A;
+  color: #4a4a4a;
 }

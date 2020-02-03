@@ -1,23 +1,22 @@
-nav{
-  background: #183F82;
-  margin:0;
-  padding:1px;
+nav {
+  background: #183f82;
+  margin: 0;
+  padding: 1px;
 }
 
-nav ul{
-    display:flex;
-    list-style-type: none;
-    justify-content:center;
-  }
-  
-  nav ul li a{
-    text-decoration:none;
-    padding:0 60px 0 0;
-    font-size: 0.9em;
-    color:white;
-  }
-  
-  nav ul li a:hover{
-    color:#fa163f;
-  }
-  
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 0 60px 0 0;
+  font-size: 0.9em;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: #fa163f;
+}

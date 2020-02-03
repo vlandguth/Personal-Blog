@@ -1,7 +1,17 @@
 @media only screen and (max-width: 1080px) {
-    main{
-        display:block;
+    main {
+      display: block;
     }
   }
-
-
+  
+  @media only screen and (max-width: 600px) {
+    article {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    div.thumbnail {
+      height: 200px;
+    }
+  }
+  

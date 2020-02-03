@@ -1,95 +1,97 @@
-main{
-  display:grid;
+main {
+  display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-column-gap:20px;
-  max-width:1250px;
-  margin:40px auto;
-  padding:0 20px;
+  grid-column-gap: 20px;
+  max-width: 1250px;
+  margin: 40px auto;
+  padding: 0 20px;
 }
 
-.blog{
-  grid-column:1/10;
+.blog {
+  grid-column: 1/10;
 }
 
-h2, h3, p{
-  margin:0 0 5px 0;
+h2,
+h3,
+p {
+  margin: 0 0 5px 0;
 }
 
 article {
-  overflow:hidden;
-  margin:0 0 60px 0;
+  overflow: hidden;
+  margin: 0 0 60px 0;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(5, 60px);
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
 
-article:hover{
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+article:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-div.text{
+div.text {
   grid-column: 1/8;
   padding: 25px;
 }
 
 .text h3 {
   font-size: 1.15em;
-  color:#fa163f;
-  font-weight:700;
-  letter-spacing:1px;
+  color: #fa163f;
+  font-weight: 700;
+  letter-spacing: 1px;
   text-transform: uppercase;
 }
 
 .text h2 {
-  color:#183F82;
+  color: #183f82;
   font-size: 1.75em;
-  font-weight:400;
-  letter-spacing:0.5px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
 }
 
 p.post {
   font-size: 1em;
-  font-style:italic;
-  font-weight:300;
-  line-height:1.75;
-  color:gray;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.75;
+  color: gray;
 }
 
 div.thumbnail {
-  height:300px;
+  height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
   grid-column: 8/13;
   grid-row: 1/7;
 }
 
-#instant-pot{
- background-image: url('/assets/instant-pot.jpg');
+#instant-pot {
+  background-image: url("/assets/instant-pot.jpg");
 }
 
-#popeyes{
-    background-image: url('/assets/copycat-popeyes.jpg'); 
+#popeyes {
+  background-image: url("/assets/copycat-popeyes.jpg");
 }
 
-#biscuit{
-  background-image: url('/assets/pinebiscuit.jpg'); 
+#biscuit {
+  background-image: url("/assets/pinebiscuit.jpg");
 }
 
-#blueapron{
-  background-image: url('/assets/blueapron.jpg'); 
+#blueapron {
+  background-image: url("/assets/blueapron.jpg");
   background-size: center;
 }
 
-#slappycakes{
-  background-image: url('/assets/slappycakes.jpg');
+#slappycakes {
+  background-image: url("/assets/slappycakes.jpg");
 }
 
-#voodoo{
-  background-image: url('/assets/voodoo.jpg');
+#voodoo {
+  background-image: url("/assets/voodoo.jpg");
 }
 
-#airfryer{
-  background-image: url('/assets/airfryer.jpg');
+#airfryer {
+  background-image: url("/assets/airfryer.jpg");
 }
