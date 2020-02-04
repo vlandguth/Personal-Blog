@@ -18,8 +18,16 @@
     text-align:right;
 }
 
+.post a {
+    color: #183f82;
+  }
+  
+.post a:hover {
+    color: rgb(33, 92, 194);
+  }
+
 .recipe{
-    border: 1px black solid;
+    border: 3px #fa163f solid;
     max-width:750px;
     padding:20px;
     margin:20px 0;
@@ -27,4 +35,4 @@
 
 div.recipe div.social ul li a img {
     width: 35px;
-  
+}

@@ -29,6 +29,18 @@ div.social ul li a img:hover {
   opacity: 70%;
 }
 
+.writing{
+    grid-column: 1/7;
+}
+
+.me{
+    grid-column: 8/13;
+}
+
+.me img{
+    width:100%;
+}
+
 h2,
 h3,
 h4,

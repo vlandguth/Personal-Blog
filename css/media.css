@@ -9,6 +9,10 @@
       display: flex;
       flex-direction: column-reverse;
     }
+
+    div.sidebar{
+        margin:20px 0 10px 0;
+    }
   
     div.thumbnail {
       height: 200px;
