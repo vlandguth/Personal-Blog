@@ -28,12 +28,12 @@ article {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(5, 60px);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.25s;
 }
 
 article:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 9px 15px 0 rgba(0, 0, 0, 0.25);
 }
 
 div.text {
@@ -73,30 +73,30 @@ div.thumbnail {
 }
 
 #instant-pot {
-  background-image: url("/assets/instant-pot.jpg");
+  background-image: url('/assets/instant-pot.jpg');
 }
 
 #popeyes {
-  background-image: url("/assets/copycat-popeyes.jpg");
+  background-image: url('/assets/copycat-popeyes.jpg');
 }
 
 #biscuit {
-  background-image: url("/assets/pinebiscuit.jpg");
+  background-image: url('/assets/pinebiscuit.jpg');
 }
 
 #blueapron {
-  background-image: url("/assets/blueapron.jpg");
+  background-image: url('/assets/blueapron.jpg');
   background-size: center;
 }
 
 #slappycakes {
-  background-image: url("/assets/slappycakes.jpg");
+  background-image: url('/assets/slappycakes.jpg');
 }
 
 #voodoo {
-  background-image: url("/assets/voodoo.jpg");
+  background-image: url('/assets/voodoo.jpg');
 }
 
 #airfryer {
-  background-image: url("/assets/airfryer.jpg");
+  background-image: url('/assets/airfryer.jpg');
 }
