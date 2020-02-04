@@ -73,30 +73,30 @@ div.thumbnail {
 }
 
 #instant-pot {
-  background-image: url('/assets/instant-pot.jpg');
+  background-image: url('assets/instant-pot.jpg');
 }
 
 #popeyes {
-  background-image: url('/assets/copycat-popeyes.jpg');
+  background-image: url('assets/copycat-popeyes.jpg');
 }
 
 #biscuit {
-  background-image: url('/assets/pinebiscuit.jpg');
+  background-image: url('assets/pinebiscuit.jpg');
 }
 
 #blueapron {
-  background-image: url('/assets/blueapron.jpg');
+  background-image: url('assets/blueapron.jpg');
   background-size: center;
 }
 
 #slappycakes {
-  background-image: url('/assets/slappycakes.jpg');
+  background-image: url('assets/slappycakes.jpg');
 }
 
 #voodoo {
-  background-image: url('/assets/voodoo.jpg');
+  background-image: url('assets/voodoo.jpg');
 }
 
 #airfryer {
-  background-image: url('/assets/airfryer.jpg');
+  background-image: url('assets/airfryer.jpg');
 }
