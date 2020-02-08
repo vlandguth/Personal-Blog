@@ -22,7 +22,7 @@ p {
   margin: 0 0 5px 0;
 }
 
-article {
+.card {
   overflow: hidden;
   margin: 0 0 60px 0;
   display: grid;
@@ -32,7 +32,7 @@ article {
   transition: 0.25s;
 }
 
-article:hover {
+.card:hover {
   box-shadow: 0 9px 15px 0 rgba(0, 0, 0, 0.25);
 }
 
