@@ -84,8 +84,7 @@ h5 {
   margin: 5px 0 10px 0;
 }
 
-.blog figcaption{
-    text-align:right;
+figcaption{
     font-size: 0.9em;
     font-style: italic;
     font-weight:500;

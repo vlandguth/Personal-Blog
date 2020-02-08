@@ -14,7 +14,7 @@
     line-height: 1.75;
 }
 
-.post h6{
+.post figcaption{
     text-align:right;
 }
 
@@ -25,6 +25,11 @@
 .post a:hover {
     color: rgb(33, 92, 194);
   }
+
+.post figure{
+    max-width:100%;
+    margin:0;
+}
 
 .recipe{
     border: 3px #fa163f solid;
